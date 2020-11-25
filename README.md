@@ -19,15 +19,20 @@
 ## :school_satchel: 스터디 방식 :school_satchel:
 * 스터디 참석하기전에 각자 문제 풀이하고 소스 커밋하기
 
-* 스터디 당일 서로의 코드를 아름답게 소개하며 화기애애:rage4: 한 분위기 속에서 서로 보듬어주며 코드리뷰 해보기
+* 스터디 당일 서로의 코드를 아름답게 소개하며 화기애애:rage4:한 분위기 속에서 서로 보듬어주며 코드리뷰 해보기
+
+* 각 주차별로 문제 번호_백준 닉네임.파일형식으로 커밋 하기
+
+* [코드는 이왕이면 이렇게 짜주세요.](https://github.com/ProgWon/2020_JNU_Algorithm_Study/code_rule.md)
 
 ## :alarm_clock: 일정 :alarm_clock:
+
 ### 아래 일정은 진행 상황에 따라서 언제든지 변경이 가능합니다! (ex : 문제 풀이가 세상에서 제일 쉬웠어요 :laughing:)
 
-* week1 : 
+* week1 : 자료구조 (stack, queue, hash)
 
-* week2 : 
+* week2 : 그래프 탐색 (dfs, bfs)
 
-* week3 : 
+* week3 : DP, 탐욕법, 이분탐색법
 
-* week4 : 
+* week4 : 추후 공지
