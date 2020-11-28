@@ -28,7 +28,9 @@
 ### 아래 일정은 진행 상황에 따라서 언제든지 변경이 가능합니다! (ex : 문제 풀이가 세상에서 제일 쉬웠어요 :laughing:)
 
 * week1 : 자료구조 (stack, queue, hash)
-
+ * [쇠 막대기](https://www.acmicpc.net/problem/10799)
+ * [오큰수](https://www.acmicpc.net/problem/17298)
+ * [오등큰수](https://www.acmicpc.net/problem/17299)
 * week2 : 그래프 탐색 (dfs, bfs)
 
 * week3 : DP, 탐욕법, 이분탐색법
