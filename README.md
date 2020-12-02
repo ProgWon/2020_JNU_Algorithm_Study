@@ -32,6 +32,9 @@
   * [오큰수](https://www.acmicpc.net/problem/17298)
   * [오등큰수](https://www.acmicpc.net/problem/17299)
 * week2 : 그래프 탐색 (dfs, bfs)
+  * [성곽](https://www.acmicpc.net/problem/2234)
+  * [영역 구하기](https://www.acmicpc.net/problem/2583)
+  * [촌수계산](https://www.acmicpc.net/problem/2644)
 
 * week3 : DP, 탐욕법, 이분탐색법
 
