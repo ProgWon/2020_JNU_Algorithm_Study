@@ -44,3 +44,4 @@
 ### 2644 촌수 계산
 
 ### 기록하고 싶은 내용
+* ConcurrentModificationException();
