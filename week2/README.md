@@ -53,6 +53,7 @@
 * 방의 갯수를 세는 과정에서 출발지부터의 거리와 실제적인 방의 거리와는 차이가 있음을 인지하고 어느 단계에서 카운트를 증가시켜주느냐에 따라 다른 결과가 나옴을 확실하게 알게 되었습니다.
 
 ### [2583 영역구하기](https://github.com/ProgWon/2020_JNU_Algorithm_Study/blob/main/week2/2583_noble5712.java)
+* 2차원 인접 행렬을 탐색할때 X,Y 인덱스에 대한 생각이 필요했던 문제 였던거 같습니다. 그외에는 특이사항이 없습니다.
 
 ### [2644 촌수 계산](https://github.com/ProgWon/2020_JNU_Algorithm_Study/blob/main/week2/2644_noble5712.java)
 * DFS, BFS 복습을 위해 모든 방식으로 풀이를 해보았습니다. (DFS 재귀, DFS 스택, BFS 큐)
@@ -61,4 +62,4 @@
 ### 기록하고 싶은 내용
 * ConcurrentModificationException(); 에러에 대해 알게 되었습니다.
   * 성곽 문제를 풀이하며 ArrayList의 길이를 참조하여 for문을 돌며 내부의 원소들을 비교하며 삭제하는 연산을 했는데, 이렇게 되면 for문의 인덱스가 계속 바뀌기 때문에 발생하는 에러였습니다.
-  이러한 연산을 할 때, itrator를 사용해야한다는 점을 알게 되었습니다.
+  이러한 연산을 할 때, iterator를 사용해야한다는 점을 알게 되었습니다.
