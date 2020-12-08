@@ -27,25 +27,6 @@
  
 ## spacein1001
 
-### [2234 성곽](https://github.com/ProgWon/2020_JNU_Algorithm_Study/blob/main/week2/2234_spacein1001.java)
-* 이 문제는 단순 BFS이긴하지만 입력값이 0과 1이 아닌 1~15값을 2진수로 바꾸어 벽이 없는 방향으로만 BFS를 적용시켜야하는 문제였습니다.
-* toBinaryString으로 2진수로 바꾸어 입력값을 저장했는데 함수구현을 잘 하지 못했고, 다시 풀어보다가 실패하여 다른사람의 코드를 참고하였습니다. 
-* 재도전이 필요합니다. 비트연산자와 비트 마스킹에 대한 공부가 필요하다고 느꼈습니다.
-
-### [2583 영역구하기](https://github.com/ProgWon/2020_JNU_Algorithm_Study/blob/main/week2/2583_spacein1001.java)
-* 생각을 변화시키니 쉽게 푼 문제입니다. 문제를 그대로 받아들이는 것이 아닌 코딩적 사고가 필요하다고 느꼈습니다.
-* 문제에서는 x와 y좌표를 (x,y)로 두었지만 새로운 Point 클래스를 만들어 영역 한칸마다 (x,y)을 준다고 생각하여 풀었습니다.
-* x와 y에 대응하는 i와 j값을 혼동해 계속해서 실행오류를 엄청나게 많이 본 문제입니다.
-* 객체를 다루는데 좀 더 수월하게 작용한 문제로서 나중에도 계속 들여볼것 같은 코드입니다.
-
-### [2644 촌수 계산](https://github.com/ProgWon/2020_JNU_Algorithm_Study/blob/main/week2/2644_spacein1001.java)
-* 백준 BFS 문제중 2606번인 바이러스 문제와 매우 유사해서 쉽게 푼 문제입니다. 
-* 다른 점이라고는 BFS에 cost라는 배열을 만들어 BFS가 새로운 칸을 검사할 때마다 값을 저장해 두었습니다.
-
-### 기록하고 싶은 내용
-
-## noble5712
-
 ### 2234 성곽
 
 ### 2583 영역구하기
@@ -53,4 +34,19 @@
 ### 2644 촌수 계산
 
 ### 기록하고 싶은 내용
-* ConcurrentModificationException();
+
+## noble5712
+
+### [2234 성곽](https://github.com/ProgWon/2020_JNU_Algorithm_Study/blob/main/week2/2234_noble5712.java)
+* 문제를 풀고 나니 불필요한 코드가 눈에 많이 들어왔습니다. Input 함수 내에서 String을 슬라이싱하여 뒤집어줬는데, 그럴 필요가 없었고, 벽을 부수는 과정에서 HashMap 을 사용했는데, 다른 풀이가 더 코드가 깔끔할 것 같아서 수정의 시간을 가질 예정입니다.
+
+### [2583 영역구하기](https://github.com/ProgWon/2020_JNU_Algorithm_Study/blob/main/week2/2583_noble5712.java)
+
+### [2644 촌수 계산](https://github.com/ProgWon/2020_JNU_Algorithm_Study/blob/main/week2/2644_noble5712.java)
+* DFS, BFS 복습을 위해 모든 방식으로 풀이를 해보았습니다. (DFS 재귀, DFS 스택, BFS 큐)
+* DFS는 주로 재귀로만 풀이하고 스택으로는 처음 풀이해보아서 앞으로 더욱 많은 연습이 필요하다고 느꼈습니다.
+
+### 기록하고 싶은 내용
+* ConcurrentModificationException(); 에러에 대해 알게 되었습니다.
+  * 성곽 문제를 풀이하며 ArrayList의 길이를 참조하여 for문을 돌며 내부의 원소들을 비교하며 삭제하는 연산을 했는데, 이렇게 되면 for문의 인덱스가 계속 바뀌기 때문에 발생하는 에러였습니다.
+  이러한 연산을 할 때, itrator를 사용해야한다는 점을 알게 되었습니다.
