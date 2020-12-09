@@ -41,7 +41,8 @@
 * Top-down과 Bottom-up으로 모두 풀이해보았습니다. Top-down은 재귀적으로 풀이하니 직관적으로 알기 쉬운데, Bottom-up의 경우는 아직 어색해서 좀 더 많은 문제를 풀어야 할 것 같습니다.
 
 ### [3085 사탕 게임](https://github.com/ProgWon/2020_JNU_Algorithm_Study/blob/main/week3/3085_noble5712.java)
-
+* 완전 탐색이 온전히 이루어질수 있도록 조건을 계속 만들어주는게 생각보다 머리 아팠습니다.
+  * 배열로 입력을 받아 글자를 바꿔주지만 다음 연산을 위해 초기 배열로 초기화 시켜주어야 했습니다. 처음엔 2차원 배열을 깊은 복사하여 클론을 만들어내려고 했는데, 배열을 연산할 때마다 계속 클론을 생성하기엔 연산의 수가 불필요하게 늘어난다고 느껴서, 뒤집은 배열을 다시 또 뒤집어 초기 상태로 만들어주었습니다.
 ### [9262 LCS 2](https://github.com/ProgWon/2020_JNU_Algorithm_Study/blob/main/week3/9262_noble5712.java)
 
 ### [12865 평범한 배낭](https://github.com/ProgWon/2020_JNU_Algorithm_Study/blob/main/week3/12865_noble5712.java)
