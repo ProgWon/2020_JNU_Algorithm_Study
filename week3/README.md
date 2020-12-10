@@ -9,7 +9,7 @@
 ### [3085 사탕 게임](https://github.com/ProgWon/2020_JNU_Algorithm_Study/blob/main/week3/3085_dhwhc0711.cpp)
 
 
-### [9262 LCS 2](https://github.com/ProgWon/2020_JNU_Algorithm_Study/blob/main/week3/9262_dhwhc0711.cpp)
+### [9252 LCS 2](https://github.com/ProgWon/2020_JNU_Algorithm_Study/blob/main/week3/9262_dhwhc0711.cpp)
 
 ### [12865 평범한 배낭](https://github.com/ProgWon/2020_JNU_Algorithm_Study/blob/main/week3/12865_dhwhc0711.cpp)
 
@@ -25,7 +25,7 @@
 ### [3085 사탕 게임](https://github.com/ProgWon/2020_JNU_Algorithm_Study/blob/main/week3/3085_spacein1001.java)
 
 
-### [9262 LCS 2](https://github.com/ProgWon/2020_JNU_Algorithm_Study/blob/main/week3/9262_spacein1001.java)
+### [9252 LCS 2](https://github.com/ProgWon/2020_JNU_Algorithm_Study/blob/main/week3/9262_spacein1001.java)
 
 ### [12865 평범한 배낭](https://github.com/ProgWon/2020_JNU_Algorithm_Study/blob/main/week3/12865_spacein1001.java)
 
@@ -43,7 +43,7 @@
 ### [3085 사탕 게임](https://github.com/ProgWon/2020_JNU_Algorithm_Study/blob/main/week3/3085_noble5712.java)
 * 완전 탐색이 온전히 이루어질수 있도록 조건을 계속 만들어주는게 생각보다 머리 아팠습니다.
   * 배열로 입력을 받아 글자를 바꿔주지만 다음 연산을 위해 초기 배열로 초기화 시켜주어야 했습니다. 처음엔 2차원 배열을 깊은 복사하여 클론을 만들어내려고 했는데, 배열을 연산할 때마다 계속 클론을 생성하기엔 연산의 수가 불필요하게 늘어난다고 느껴서, 뒤집은 배열을 다시 또 뒤집어 초기 상태로 만들어주었습니다.
-### [9262 LCS 2](https://github.com/ProgWon/2020_JNU_Algorithm_Study/blob/main/week3/9262_noble5712.java)
+### [9252 LCS 2](https://github.com/ProgWon/2020_JNU_Algorithm_Study/blob/main/week3/9262_noble5712.java)
 
 ### [12865 평범한 배낭](https://github.com/ProgWon/2020_JNU_Algorithm_Study/blob/main/week3/12865_noble5712.java)
 
