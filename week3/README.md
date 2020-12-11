@@ -50,3 +50,4 @@
 
 ### 기록하고 싶은 내용
 * Arrays.sort 메소드의 경우 2차원배열의 정렬을 지원하지않아 Comparator를 사용해서 정렬 했어야 했는데 Comparator와 Comparable의 경우 예전에 한번 공부한 적이 있음에도, 오랜만에 보니 낯설었습니다. 좀 더 공부할 기회를 얻은것 같습니다.
+* 배낭문제는 짐을 쪼갤 수 있는 경우와 짐을 쪼갤 수 없는 경우로 나눌 수 있다. 짐을 쪼갤 수 있는 배낭문제를 Fraction Knapsack Problem 이라 하고, 짐을 쪼갤 수 없는 배낭문제를 0/1 Knapsack Problem 이라 한다. 알고리즘 또한 다르게 적용하는데, Fraction Knapsack Problem 의 경우 탐욕 알고리즘(Greedy)을 쓰며, 0/1 Knapsack Problem의 경우 DP 법을 쓴다. (FPTAS(Fully polynomial time approximation scheme) 으로 스케일링을 통한 방법도 있지만 근사치를 얻는 방법인지라 자칫 틀릴 수도 있다.)
