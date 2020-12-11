@@ -36,6 +36,10 @@
   * [영역 구하기](https://www.acmicpc.net/problem/2583)
   * [촌수계산](https://www.acmicpc.net/problem/2644)
 
-* week3 : DP, 탐욕법, 이분탐색법
+* week3 : DP, 완전 탐색
+  * [전깃줄](https://www.acmicpc.net/problem/2565)
+  * [사탕 게임](https://www.acmicpc.net/problem/3085)
+  * [LCS 2](https://www.acmicpc.net/problem/9252)
+  * [평범한 배낭](https://www.acmicpc.net/problem/12865)
 
-* week4 : 추후 공지
+* week4 : 모의 고사 (기말고사 종료 후 문제 추가)
