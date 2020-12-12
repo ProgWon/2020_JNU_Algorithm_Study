@@ -4,7 +4,11 @@
 ## dhwhc0711
 
 ### [2565 전깃줄](https://github.com/ProgWon/2020_JNU_Algorithm_Study/blob/main/week3/2565_dhwhc0711.cpp)
-
+* 이 문제를 통해서 dp에 대한 개념을 다시 복습하기 좋았다고 생각합니다. **Top-Bottom , Bottom-Up** 방식 둘다로 풀이해봤습니다.
+* 처음에는 전봇대의 번호에 맞는 index가 필요하다고 생각했으나 어차피 sort를 통해 index는 오름차순으로 정리가 가능하기 때문에 필요하지 않았습니다.
+  * ex) 전깃줄의 번호가 1,3,5 인 경우 어차피 오름차순이므로 0,1,2의 Index로도 구별이 가능합니다
+* pair 를 이용해 vector 를 구성했는데, sort시에 first 값으로 정렬되도록 구현되어 있어 사용해주었습니다.
+* LCS 2 문제와 같이 인덱스의 마지막 값이 최댓값이 되는 줄 알았으나, 다른 경우였습니다. **dp 문제면 무조건 dp의 마지막 값이 max 값**이라고 생각했던 점을 고칠 수 있었습니다.
 
 ### [3085 사탕 게임](https://github.com/ProgWon/2020_JNU_Algorithm_Study/blob/main/week3/3085_dhwhc0711.cpp)
 
@@ -27,6 +31,7 @@
 
 ### 기록하고 싶은 내용
 
+***
  
 ## spacein1001
 
@@ -42,6 +47,7 @@
 
 ### 기록하고 싶은 내용
 
+***
 ## noble5712
 
 ### [2565 전깃줄](https://github.com/ProgWon/2020_JNU_Algorithm_Study/blob/main/week3/2565_noble5712.java)
