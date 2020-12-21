@@ -43,4 +43,4 @@
   * [LCS 2](https://www.acmicpc.net/problem/9252)
   * [평범한 배낭](https://www.acmicpc.net/problem/12865)
 
-* week4 : 모의 고사 (기말고사 종료 후 문제 추가)
+* week4 : 코로나로 인한 행사 무기한 연기 (스터디 마무리입니다! 모두 고생하셨습니다!)
